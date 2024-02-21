@@ -114,7 +114,6 @@ var swiper = new Swiper(".wiper_otvis", {
 
 //? TELEGRAM BOT
 const btnImage = document.querySelector("#btn-image");
-
 const user = document.getElementById("name");
 const number = document.getElementById("input");
     CHAT_ID = "-1002104534949";
@@ -124,7 +123,7 @@ const number = document.getElementById("input");
     document.getElementById("form").addEventListener("submit", function (e) {
       e.preventDefault();
 
-      let message = `<b>urion zakaz</b>\n`;
+      let message = `<b>urion zakaz 50%</b>\n`;
       message += `<b>ism:</b>${user.value}\n`;
       message += `<b>nomer:</b>${number.value}`;
 
